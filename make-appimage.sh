@@ -8,7 +8,7 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=PATH_OR_URL_TO_ICON
+export ICON=/usr/share/icons/hicolor/256x256/apps/sayonara.png
 export DESKTOP=/usr/share/applications/com.sayonara-player.Sayonara.desktop
 export DEPLOY_QT=1
 export QT_DIR=qt5
