@@ -14,6 +14,10 @@ export STARTUPWMCLASS=com.sayonara-player.Sayonara
 export DEPLOY_QT=1
 export QT_DIR=qt5
 
+# on archlinux qt5-wayland also adds the server side plugins
+# remove them so that they do not get deployed
+rm -rf /usr/lib/qt/plugins/wayland-graphics-integration-server
+
 # Deploy dependencies
 quick-sharun /usr/bin/sayonara /usr/share/sayonara
 
