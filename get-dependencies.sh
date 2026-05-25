@@ -9,7 +9,8 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     gst-libav        \
     gst-plugins-bad  \
-    gst-plugins-ugly
+    gst-plugins-ugly \
+    qt5-wayland
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
